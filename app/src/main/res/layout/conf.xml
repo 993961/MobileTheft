@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#5F89A1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        android:textSize="30dp"
+        android:textColor="#000203"/>
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress" >
+    </EditText>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile"
+        android:textSize="30dp"
+        android:textColor="#000203"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/etmobile"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Emobile"
+            android:maxLength="13"
+            android:inputType="phone" >
+
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#000203"
+            android:onClick="contacts"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:textSize="30dp"
+        android:textColor="#000203"/>
+    <EditText
+        android:id="@+id/etmessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Emessage"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:gravity="top"
+        android:maxLines="6"
+        android:maxLength="30">
+    </EditText>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#5F89A1"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/save"
+            android:textColor="#000203"
+            android:onClick="save"/>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/cancel"
+            android:textColor="#000203"
+            android:onClick="cancel"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newsys.mobiletheft" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Active"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <service
+            android:name=".SimchangeService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name=".Configure"
+            android:label="@string/title_activity_configure" >
+        </activity>
+        <activity
+            android:name=".Password"
+            android:label="@string/title_activity_password" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <receiver android:name=".BroadBoot">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.HOME" />
+                </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

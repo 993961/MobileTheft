@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MobileTheft</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Enter_Password">Enter Password</string>
+    <string name="confirm_Password">Confirm Password</string>
+    <string name="Econfirm_Password">Conform password</string>
+    <string name="ok">OK</string>
+    <string name="Password">PASSWORD</string>
+    <string name="Active">Active</string>
+    <string name="Deactive">Deactive</string>
+    <string name="configure">Configure</string>
+    <string name="changepassword">Change Password</string>
+    <string name="mail">Mail_id</string>
+    <string name="Email">Enter_Mail_id</string>
+    <string name="Emobile">Enter Mobile Number</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="message">Message:</string>
+    <string name="Emessage">Enter Message:</string>
+    <string name="save">Save</string>
+    <string name="oldpswd">Old Password</string>
+    <string name="newpswd">New Password</string>
+    <string name="Eoldpswd">Enter Old Password</string>
+    <string name="Enewpswd">Enter new Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">+</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_configure">Configure</string>
+    <string name="title_activity_password">Password</string>
+
+</resources>
